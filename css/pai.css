@@ -1,0 +1,193 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.header {
+  width: 15rem;
+  height: 1.8rem;
+  background: #ffffff;
+  overflow: hidden;
+  zoom: 1;
+  padding-left: 3.36rem;
+}
+.header .left {
+  margin-top: 0.3rem;
+  float: left;
+  width: 3.6rem;
+  height: 1.04rem;
+  background: #ffffff;
+  border-radius: 2rem;
+  font-size: 0.64rem;
+  color: #999999;
+  line-height: 0.9rem;
+  text-align: center;
+  padding-top: 0.16rem;
+}
+.header .right {
+  margin-top: 0.3rem;
+  float: left;
+  width: 3.6rem;
+  height: 1.04rem;
+  background: #ffffff;
+  border-radius: 2rem;
+  font-size: 0.64rem;
+  color: #999999;
+  line-height: 0.9rem;
+  text-align: center;
+  padding-top: 0.16rem;
+  margin-left: 1.1rem;
+}
+.header .ac {
+  background: #F96C5E;
+  color: #ffffff;
+}
+.inner .one .show {
+  width: 15rem;
+  height: 8rem;
+  background: #F96C5E;
+}
+.inner .one .show .title {
+  height: 0.9rem;
+  font-size: 0.64rem;
+  color: #ffffff;
+  line-height: 0.9rem;
+  padding-top: 1.02rem;
+  text-align: center;
+}
+.inner .one .show .sub {
+  text-align: center;
+  height: 2.24rem;
+  font-size: 1.6rem;
+  color: #ffffff;
+  line-height: 2.24rem;
+}
+.inner .one .show .hang {
+  margin: 0 auto;
+  width: 3.66rem;
+  font-size: 0.48rem;
+  color: #ffffff;
+  padding-top: 0.12rem;
+  line-height: 0.66rem;
+}
+.inner .one .show .hang img {
+  width: 23 brem;
+  height: 0.522rem;
+}
+.inner .one .show ul {
+  width: 12rem;
+  height: 1.6rem;
+  border-radius: 2rem;
+  background: #D73626 ;
+  margin: 0.8rem auto 0.6rem;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+}
+.inner .one .show ul li {
+  float: left;
+  width: 4rem;
+  height: 100%;
+  font-size: 0.64rem;
+  color: #ffffff;
+  line-height: 1.6rem;
+  text-align: center;
+  border-radius: 2rem;
+}
+.inner .one .show ul .av {
+  background: #F96C5E;
+  opacity: 0.6;
+}
+.inner .one .bom .banner {
+  width: 15rem;
+  height: 2.8rem;
+  background: #ffffff;
+  overflow: hidden;
+  zoom: 1;
+}
+.inner .one .bom .banner .pic {
+  float: left;
+  width: 1.398rem;
+  height: 1.28rem;
+  margin-left: 2.68rem;
+  margin-top: 0.742rem;
+}
+.inner .one .bom .banner .pic img {
+  width: 100%;
+  height: 100%;
+}
+.inner .one .bom .banner .text {
+  float: left;
+  font-size: 0.8rem;
+  color: #000000;
+  line-height: 1.12rem;
+  padding-top: 0.84rem;
+  padding-left: 0.422rem;
+}
+.inner .one .bom .banner .text span {
+  font-size: 0.48rem;
+  color: #999999;
+  line-height: 0.66rem;
+  vertical-align: middle;
+  width: 2.88rem;
+  height: 0.66rem;
+  text-align: center;
+  display: inline-block;
+}
+.inner .one .bom .section {
+  width: 15rem;
+  height: 2rem;
+  background: url(../img/57.jpg) repeat-x;
+  background-size: 2.14rem;
+}
+.inner .one .bom .section ul {
+  overflow: hidden;
+  zoom: 1;
+}
+.inner .one .bom .section ul li {
+  float: left;
+  width: 5rem;
+  height: 2rem;
+  font-size: 0.64rem;
+  color: #000000;
+  line-height: 2rem;
+  text-align: center;
+}
+.inner .one .bom .section1 {
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+  background: #ffffff;
+}
+.inner .one .bom .section1 ul li {
+  height: 1.96rem;
+  border-bottom: 0.02rem solid #e3e3e3;
+  overflow: hidden;
+  zoom: 1;
+}
+.inner .one .bom .section1 ul li .pic {
+  float: left;
+  width: 0.88rem;
+  height: 1.1rem;
+  margin-left: 1.46rem;
+  margin-top: 0.46rem;
+  font-size: 0.56rem;
+  color: #333333;
+  text-align: center;
+  line-height: 1.1rem;
+}
+.inner .one .bom .section1 ul li .pic img {
+  width: 100%;
+  height: 100%;
+}
+.inner .one .bom .section1 ul li .name {
+  float: left;
+  font-size: 0.56rem;
+  color: #333333;
+  line-height: 1.96rem;
+  padding-left: 3.72rem;
+}
+.inner .one .bom .section1 ul li .ming {
+  float: left;
+  font-size: 0.56rem;
+  color: #FF772E;
+  line-height: 1.96rem;
+  padding-left: 2.46rem;
+}

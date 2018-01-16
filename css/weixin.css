@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #F5F5F5;
+}
+.header {
+  width: 15rem;
+  height: 7.38rem;
+  background: #93C9F6;
+  padding-top: 0.62rem;
+}
+.header .inner {
+  width: 12.6rem;
+  height: 6.78rem;
+  box-shadow: 0.1rem 0.1rem 0.08rem 0 rgba(0, 0, 0, 0.1);
+  background: #ffffff;
+  margin: 0 auto;
+  border-radius: 0.2rem;
+  overflow: hidden;
+  zoom: 1;
+}
+.header .inner .pic {
+  float: left;
+  width: 4.7rem;
+  height: 4.7rem;
+  margin-top: 1.04rem;
+  margin-left: 0.88rem;
+}
+.header .inner .pic img {
+  width: 100%;
+  height: 100%;
+}
+.header .inner .text {
+  float: left;
+  padding-left: 0.72rem;
+  padding-top: 1.32rem;
+}
+.header .inner .text .h3 {
+  font-size: 0.72rem;
+  color: #000000;
+  line-height: 1rem;
+}
+.header .inner .text .six {
+  font-size: 0.48rem;
+  color: #000000;
+  line-height: 0.66rem;
+}
+.header .inner .text .six span {
+  font-size: 0.56rem;
+  color: #93C9F6;
+  line-height: 0.66rem;
+}
+.header .inner .text .but {
+  padding-top: 0.26rem;
+}
+.header .inner .text .but button {
+  width: 5rem;
+  height: 2rem;
+  background: #29A1F7;
+  border-radius: 0.16rem;
+  font-size: 0.48rem;
+  color: #ffffff;
+  line-height: 0.66rem;
+  text-align: left;
+  padding-left: 0.58rem;
+}
+.banner {
+  width: 15rem;
+  height: 1.8rem;
+  border-bottom: 0.02rem solid #e3e3e3;
+  background: #ffffff;
+  overflow: hidden;
+  zoom: 1;
+}
+.banner div {
+  float: left;
+  width: 50%;
+  text-align: center;
+  height: 1.8rem;
+}
+.banner div a {
+  font-size: 0.56rem;
+  line-height: 1.8rem;
+  color: #999999;
+}
+.banner .ac a {
+  font-size: 0.72rem;
+  color: #108EE9;
+}
+.show {
+  width: 13.8rem;
+  background: #ffffff;
+  border-top: 0.02rem solid #e3e3e3;
+  border-bottom: 0.02rem solid #e3e3e3;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+  margin-top: 0.38rem;
+}
+.show .one {
+  display: none;
+  width: 100%;
+  overflow: hidden;
+  zoom: 1;
+}
+.show .one li {
+  width: 100%;
+  height: 3.14rem;
+  border-bottom: 0.02rem solid #e3e3e3;
+}
+.show .one li .pic {
+  float: left;
+  width: 2rem;
+  height: 2rem;
+  margin-top: 0.48rem;
+}
+.show .one li .pic img {
+  width: 100%;
+  height: 100%;
+}
+.show .one li .text {
+  padding-left: 0.76rem;
+  padding-top: 0.32rem;
+  float: left;
+}
+.show .one li .text .h {
+  font-size: 0.66rem;
+  color: #333333;
+  line-height: 0.9rem;
+}
+.show .one li .text .ding {
+  padding-top: 0.12rem;
+  font-size: 0.48rem;
+  color: #666666;
+  line-height: 0.66rem;
+}
+.show .one li .text .jin {
+  font-size: 0.48rem;
+  color: #666666;
+  line-height: 0.66rem;
+}
+.show .one li .right {
+  float: left;
+  font-size: 0.48rem;
+  line-height: 0.66rem;
+  padding-top: 0.4rem;
+  padding-left: 3.36rem;
+}
+.show .one li:last-child {
+  border-bottom: 0;
+}
+.show .two {
+  width: 100%;
+  overflow: hidden;
+  zoom: 1;
+}
+.show .two li {
+  width: 100%;
+  height: 3.74rem;
+  border-bottom: 0.02rem solid #e3e3e3;
+  overflow: hidden;
+  zoom: 1;
+}
+.show .two li .pic {
+  float: left;
+  width: 2rem;
+  height: 2rem;
+  margin-top: 0.48rem;
+}
+.show .two li .pic img {
+  width: 100%;
+  height: 100%;
+}
+.show .two li .text {
+  padding-left: 0.76rem;
+  padding-top: 0.32rem;
+  float: left;
+}
+.show .two li .text .h {
+  font-size: 0.66rem;
+  color: #333333;
+  line-height: 0.9rem;
+}
+.show .two li .text .ding {
+  padding-top: 0.12rem;
+  font-size: 0.48rem;
+  color: #666666;
+  line-height: 0.66rem;
+}
+.show .two li .text .jin {
+  font-size: 0.48rem;
+  color: #666666;
+  line-height: 0.66rem;
+}
+.show .two li .text .xi {
+  font-size: 0.48rem;
+  color: #666666;
+  line-height: 0.66rem;
+}
+.show .two li .right {
+  float: right;
+  font-size: 0.48rem;
+  line-height: 0.66rem;
+  padding-top: 0.4rem;
+}
+.show .two li:last-child {
+  border-bottom: 0;
+}

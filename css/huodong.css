@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #F5F5F5;
+}
+.header {
+  width: 15rem;
+  height: 6.8rem;
+  background-color: #1A8EE7;
+  text-align: center;
+}
+.header .pic {
+  width: 3.2rem;
+  height: 3.2rem;
+  display: inline-block;
+  padding-top: 3%;
+}
+.header .pic img {
+  width: 100%;
+  height: 100%;
+}
+.header .name {
+  text-align: center;
+  padding-top: 1.6%;
+}
+.header .name div {
+  margin: 0 auto;
+  font-size: 0.72rem;
+  color: #FFFFFF;
+  line-height: 1rem;
+}
+.header .tell {
+  font-size: 0.56rem;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 0.8rem;
+  margin-top: 0.4%;
+}

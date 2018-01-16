@@ -1,0 +1,242 @@
+ * {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #F5F5F5;
+}
+.header {
+  width: 15rem;
+  height: 5.2rem;
+  background: #ffffff;
+  margin-top: 0.6rem;
+  margin-bottom: 0.6rem;
+  border-top: 0.02rem solid #dddddd;
+  border-bottom: 0.02rem solid #dddddd;
+}
+.header .inner {
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+}
+.header .inner .top {
+  height: 3.4rem;
+  border-bottom: 0.02rem solid #dddddd;
+  overflow: hidden;
+  zoom: 1;
+}
+.header .inner .top .touxiang {
+  float: left;
+  height: 0.9rem;
+  font-size: 0.64rem;
+  line-height: 0.9rem;
+  color: #000000;
+  margin-top: 1.28rem;
+}
+.header .inner .top .right {
+  float: right;
+  overflow: hidden;
+  zoom: 1;
+}
+.header .inner .top .right .pic {
+  margin-top: 0.42rem;
+  width: 2.6rem;
+  height: 2.6rem;
+  float: left;
+  border: 0.02rem solid #c7c7cc;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.header .inner .top .right .pic img {
+  width: 100%;
+  height: 100%;
+}
+.header .inner .top .right .tu {
+  float: left;
+  width: 0.3rem;
+  height: 0.5rem;
+  margin-left: 0.52rem;
+  margin-top: 1.48rem;
+}
+.header .inner .top .right .tu img {
+  width: 100%;
+  height: 100%;
+}
+.header .inner .bot {
+  height: 1.76rem;
+  background: #ffffff;
+  overflow: hidden;
+  zoom: 1;
+}
+.header .inner .bot .title {
+  float: left;
+  font-size: 0.64rem;
+  line-height: 0.9rem;
+  color: #000000;
+  height: 0.9rem;
+  margin-top: 0.44rem;
+}
+.header .inner .bot .text {
+  float: right;
+  overflow: hidden;
+  zoom: 1;
+}
+.header .inner .bot .text .tell {
+  float: right;
+  font-size: 0.64rem;
+  color: #999999;
+  line-height: 0.9rem;
+  height: 0.9rem;
+  margin-top: 0.44rem;
+}
+.header .inner .bot .text .tu {
+  float: right;
+  width: 0.3rem;
+  height: 0.5rem;
+  margin-top: 0.64rem;
+  margin-left: 0.5rem;
+}
+.header .inner .bot .text .tu img {
+  width: 100%;
+  height: 100%;
+}
+.show {
+  width: 15rem;
+  height: 5.4rem;
+  border-top: 0.02rem solid #dddddd;
+  border-bottom: 0.02rem solid #dddddd;
+  background: #ffffff;
+}
+.show .inner {
+  padding-left: 0.6rem;
+}
+.show .inner .shouji {
+  height: 1.76rem;
+  border-bottom: 0.02rem solid #dddddd;
+  overflow: hidden;
+  zoom: 1;
+}
+.show .inner .shouji .left {
+  float: left;
+  font-size: 0.64rem;
+  color: #000000;
+  line-height: 0.9rem;
+  margin-top: 0.44rem;
+}
+.show .inner .shouji .text {
+  float: right;
+  font-size: 0.64rem;
+  line-height: 0.9rem;
+  color: #999999;
+  margin-top: 0.44rem;
+  margin-right: 0.6rem;
+}
+.show .inner .shang {
+  height: 1.76rem;
+  border-bottom: 0.02rem solid #dddddd;
+  overflow: hidden;
+  zoom: 1;
+}
+.show .inner .shang .left {
+  float: left;
+  font-size: 0.64rem;
+  color: #000000;
+  line-height: 0.9rem;
+  margin-top: 0.44rem;
+}
+.show .inner .shang .text {
+  float: right;
+  font-size: 0.64rem;
+  line-height: 0.9rem;
+  color: #999999;
+  margin-top: 0.44rem;
+  margin-right: 0.6rem;
+}
+.show .inner .jia {
+  height: 1.8rem;
+  overflow: hidden;
+  zoom: 1;
+}
+.show .inner .jia .left {
+  float: left;
+  font-size: 0.64rem;
+  color: #000000;
+  line-height: 0.9rem;
+  margin-top: 0.42rem;
+}
+.show .inner .jia .text {
+  float: right;
+  font-size: 0.64rem;
+  line-height: 0.9rem;
+  color: #999999;
+  margin-top: 0.42rem;
+  margin-right: 0.6rem;
+}
+.footer {
+  display: none;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  border-top: 0.02rem solid #bbbbbb;
+  /*margin-top: 6.44rem;*/
+  width: 15rem;
+  z-index:999;
+}
+.footer .top {
+  width: 100%;
+  height: 2rem;
+  background: #ffffff;
+  overflow: hidden;
+  zoom: 1;
+}
+.footer .top .left {
+  float: left;
+  font-size: 0.64rem;
+  color: #333333;
+  line-height: 0.9rem;
+  padding-left: 0.6rem;
+  padding-top: 0.56rem;
+}
+.footer .top .right {
+  float: right;
+  font-size: 0.64rem;
+  color: #333333;
+  line-height: 0.9rem;
+  padding-right: 0.6rem;
+  padding-top: 0.56rem;
+}
+.footer .bot {
+  border: 0.02rem solid #dddddd;
+  width: 13.8rem;
+  height: 2rem;
+  border-radius: 0.1rem;
+  background: #ffffff;
+  margin-top: 0.62rem;
+  margin-left: 0.6rem;
+  position: relative;
+}
+.footer .bot input {
+  width: 13.2rem;
+  height: 100%;
+  font-size: 0.64rem;
+  color: #333333;
+  padding-left: 0.6rem;
+}
+.footer .bot div {
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  right: 0.6rem;
+  top: 0.5rem;
+}
+.footer .bot div img {
+  width: 100%;
+  height: 100%;
+}
+.footer .title {
+  font-size: 0.48rem;
+  color: #999999;
+  line-height: 0.66rem;
+  padding-top: 0.36rem;
+  padding-left: 1.2rem;
+  padding-bottom: 0.92rem;
+}

@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.banner {
+  width: 15rem;
+  height: 4.22rem;
+  padding-top: 0.76rem;
+  background-color: #1488e2;
+}
+.banner .uesrname {
+  text-align: center;
+  font-size: 0.68rem;
+  color: #ffffff;
+  line-height: 1.34rem;
+  height: 1.34rem;
+}
+.banner .math {
+  text-align: center;
+  font-size: 1.6rem;
+  color: #ffffff;
+  line-height: 1.96rem;
+}
+.section {
+  width: 15rem;
+  height: 19.48rem;
+  background-color: #f5f5f5;
+  padding-top: 0.42rem;
+}
+.section ul {
+  background-color: #ffffff;
+}
+.section ul li {
+  width: 15rem;
+  height: 1.94rem;
+  border-top: 0.04rem solid #f2f2f2;
+  overflow: hidden;
+  zoom: 1;
+}
+.section ul li .left {
+  width: 1.28rem;
+  float: left;
+  padding-left: 0.6rem;
+  padding-top: 0.28rem;
+  padding-right: 0.5rem;
+  border-right: 0.04rem solid #f2f2f2;
+}
+.section ul li .left span {
+  font-size: 0.64rem;
+  color: #b3b3b3;
+  line-height: 0.86rem;
+  display: block;
+}
+.section ul li .left span:nth-child(2) {
+  font-size: 0.56rem;
+  color: #999999;
+  line-height: 0.7rem;
+}
+.section ul li .mid {
+  width: 12.56rem;
+  height: 1.96rem;
+  float: left;
+  overflow: hidden;
+  zoom: 1;
+}
+.section ul li .mid .wang {
+  float: left;
+  font-size: 0.64rem;
+  color: #4b4b4b;
+  padding-left: 0.6rem;
+  line-height: 1.84rem;
+}
+.section ul li .mid .right {
+  float: right;
+  padding-right: 0.64rem;
+  padding-top: 0.22rem;
+}
+.section ul li .mid .right .top {
+  text-align: right;
+  font-size: 0.64rem;
+  color: #333333;
+  line-height: 0.9rem;
+}
+.section ul li .mid .right .bot {
+  font-size: 0.48rem;
+  color: #999999;
+  line-height: 0.64rem;
+}
+.section ul li:last-child {
+  border-bottom: 0.04rem solid #f2f2f2;
+}

@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #F5F5F5;
+}
+.section {
+  width: 14.4rem;
+  padding-bottom: 0.46rem;
+  background-color: #F5F5F5;
+  padding-left: 0.6rem;
+  padding-top: 0.44rem;
+}
+.section .h3 {
+  font-size: 0.64rem;
+  color: #2A2A2A;
+  line-height: 0.9rem;
+  padding-bottom: 0.46rem;
+}
+.section .h3 span {
+  font-size: 0.64rem;
+  color: #29A1F7;
+  line-height: 0.9rem;
+}
+.section a {
+  display: block;
+}
+.section a .text {
+  width: 13.8rem;
+  height: 2.4rem;
+  background-color: #ffffff;
+  overflow: hidden;
+  zoom: 1;
+}
+.section a .text .left {
+  float: left;
+  font-size: 0.56rem;
+  color: #666666;
+  line-height: 0.8rem;
+  padding-left: 0.6rem;
+  padding-top: 0.8rem;
+}
+.section a .text .right {
+  float: right;
+  font-size: 0.56rem;
+  color: #FF772E;
+  line-height: 0.8rem;
+  padding-top: 0.8rem;
+  padding-right: 0.68rem;
+}
+.section1 {
+  width: 15rem;
+  background-color: #F5F5F5;
+}
+.section1 .inner {
+  margin: 0 auto;
+  width: 13.8rem;
+}
+.section1 .inner .h2 {
+  font-size: 0.64rem;
+  color: #666666;
+  line-height: 0.9rem;
+  margin-bottom: 0.44rem;
+}
+.section1 .inner .show {
+  margin-bottom: 5.7rem;
+  width: 13.8rem;
+  height: 10.78rem;
+  background-color: #ffffff;
+}
+.section1 .inner .show a {
+  display: block;
+  overflow: hidden;
+  zoom: 1;
+  border-bottom: 0.02rem solid #e3e3e3;
+  width: 100%;
+}
+.section1 .inner .show a .pic {
+  float: left;
+  width: 1.6rem;
+  height: 1.6rem;
+  padding-top: 0.44rem;
+  padding-left: 0.42rem;
+}
+.section1 .inner .show a .pic img {
+  width: 100%;
+  height: 100%;
+}
+.section1 .inner .show a .right {
+  float: left;
+  padding-top: 0.4rem;
+  padding-left: 0.46rem;
+}
+.section1 .inner .show a .right .title {
+  font-size: 0.64rem;
+  color: #666666;
+  line-height: 0.9rem;
+}
+.section1 .inner .show a .right .text {
+  padding-top: 0.1rem;
+  font-size: 0.48rem;
+  color: #999999;
+  line-height: 0.66rem;
+  padding-bottom: 0.34rem;
+}
+.section1 .inner .show p {
+  font-size: 0.48rem;
+  color: #999999;
+  line-height: 0.9rem;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+  height: 2.7rem;
+  margin-top: 0.48rem;
+  padding-bottom: 0.36rem;
+}
+.footer {
+  width: 15rem;
+  background-color: #F5F5F5;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+.footer .inner {
+  width: 13.8rem;
+  margin: 0 auto;
+}
+.footer .inner button {
+  width: 100%;
+  height: 1.8rem;
+  background-color: #108EE9;
+  border-radius: 0.08rem;
+  margin-bottom: 0.6rem;
+  font-size: 0.64rem;
+  color: #ffffff;
+  line-height: 1.8rem;
+  border: none;
+  outline: none;
+}
+.modal {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  opacity: .3;
+  background: #000;
+  display: none;
+}
+.alert {
+  display: none;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-left: -6.9rem;
+  margin-top: -4.8rem;
+  width: 13.8rem;
+  height: 9.6rem;
+  background-color: #ffffff;
+}
+.alert .ti {
+  width: 100%;
+  border-bottom: 0.02rem solid #e3e3e3;
+  text-align: center;
+  padding-top: 0.86rem;
+  padding-bottom: 0.64rem;
+  font-size: 0.64rem;
+  line-height: 0.9rem;
+  color: #333333;
+  position: relative;
+}
+.alert .ti .sub {
+  width: 0.6rem;
+  height: 0.6rem;
+  position: absolute;
+  right: 0.6rem;
+  top: 0.6rem;
+}
+.alert .ti .sub img {
+  width: 100%;
+  height: 100%;
+}
+.alert form div {
+  border-bottom: 0.02rem solid #e3e3e3;
+}
+.alert form div .username {
+  height: 0.8rem;
+  line-height: 0.8rem;
+  font-size: 0.56rem;
+  width: 12.6rem;
+  padding-top: 0.78rem;
+  padding-bottom: 0.38rem;
+  padding-left: 1.2rem;
+}
+.alert form div {
+  border-bottom: 0.02rem solid #e3e3e3;
+}
+.alert form div .password {
+  font-size: 0.56rem;
+  line-height: 0.8rem;
+  height: 0.8rem;
+  padding-top: 0.78rem;
+  padding-bottom: 0.38rem;
+  padding-left: 1.2rem;
+}
+.alert form div .button {
+  float: right;
+  width: 3.92rem;
+  height: 1.6rem;
+  background-color: #F5F5F5;
+  border-radius: 0.1rem;
+  border: 0.02rem solid #dddddd;
+  margin-top: 0.18rem;
+  margin-right: 0.6rem;
+  outline: none;
+}
+.alert form .bot {
+  padding-top: 0.74rem;
+  padding-bottom: 0.62rem;
+  padding-left: 0.9rem;
+}
+.alert form .bot .tijiao {
+  width: 12rem;
+  height: 1.8rem;
+  background-color: #108EE9;
+  font-size: 0.64rem;
+  color: #ffffff;
+  line-height: 0.9rem;
+  border-radius: 0.16rem;
+  outline: none;
+  border: none;
+}

@@ -1,0 +1,83 @@
+@brem:50rem;
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  background:#333333;
+  width:750/@brem;
+  .show{
+    width:660/@brem;
+    height:1100/@brem;
+    background:#ffffff;
+    position:fixed;
+    top:50%;
+    left:50%;
+    margin-left:-330/@brem; /* width的一半的相反数 */
+    margin-top:-550/@brem;  /* height的一半的相反数 */
+    .header{
+      overflow:hidden;
+      zoom:1;
+      padding-left:40/@brem;
+      .pic{
+        float:left;
+        margin-top: 40/@brem;
+        width:130/@brem;
+        height:130/@brem;
+        img{
+          width:100%;
+          height:100%;
+        }
+      }
+      .text{
+        float:left;
+        padding-left:25/@brem;
+        .h3{
+          font-size:40/@brem;
+          color:#333333;
+          line-height:56/@brem;
+          padding-top:53/@brem;
+        }
+        div{
+          font-size:28/@brem;
+          color:#999999;
+          line-height:40/@brem;
+          height:40/@brem;
+          margin-top: 8/@brem;
+        }
+      }
+    }
+    .banner{
+      padding-top: 100/@brem;
+      padding-left:74/@brem;
+      padding-right:73/@brem;
+      img{
+        width:513/@brem;
+        height:513/@brem;
+      }
+    }
+    .title{
+      font-size:40/@brem;
+      color:#999999;
+      line-height:56/@brem;
+      padding-top:53/@brem;
+      width:100%;
+      height:95/@brem;
+      text-align:center;
+    }
+    .but{
+      padding-left:80/@brem;
+      padding-right:80/@brem;
+      button{
+        border:1/@brem solid #1691EA;
+        background:#ffffff;
+        width:500/@brem;
+        height:100/@brem;
+        border-radius:5/@brem;
+        font-size:40/@brem;
+        color:#333333;
+        line-height:56/@brem;
+      }
+    }
+  }
+}

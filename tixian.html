@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta  name="viewport" content="width=device-width,height=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" >
+    <link rel="stylesheet" href="css/tixian.css">
+    <link href="css/reset.css" rel="stylesheet">
+    <script src="js/reset.js"></script>
+    <script src="js/tixian.js"></script>
+    <title>余额账户</title>
+
+</head>
+<body>
+    <div class="header">
+        <div class="top teb">
+            <div class="pic">
+                <img src="img/24.png">
+            </div>
+            <div class="text">银行卡</div>
+            <div class="pan">
+                <img src="img/23.png">
+            </div>
+        </div>
+        <div class="bot teb">
+            <div class="pic">
+                <img src="img/28.png">
+            </div>
+            <div class="text">支付宝</div>
+            <div class="pan" style="display: none">
+                <img src="img/23.png">
+            </div>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="six teb">
+            <form name="form1" id="form">
+                <div class="one">
+                    <div class="left">开户银行</div>
+                    <div class="zhong">请选择</div>
+                    <div class="pic">
+                        <img src="img/43.png">
+                    </div>
+                </div>
+                <div class="two">
+                    <div class="left">开户省市</div>
+                    <div class="zhong">请选择</div>
+                    <div class="pic">
+                        <img src="img/43.png">
+                    </div>
+                </div>
+                <div class="hang">
+                    支行名称<input type="text" placeholder="开户支行名称">
+                </div>
+                <div class="chi">
+                    开户名<input type="text" placeholder="持卡人姓名">
+                </div>
+                <div class="hao">
+                    卡号<input type="number" placeholder="银行卡号">
+                </div>
+                <div class="footer">
+                    <button type="submit"  name="button1"id="submit">保 存</button>
+                </div>
+            </form>
+        </div>
+        <div class="four teb" style="display: none">
+            <form>
+                <div class="tell">
+                    支付宝账号<input type="number" placeholder="手机号/邮箱" value="">
+                </div>
+                <div class="xis">
+                    认证姓名<input type="text" placeholder="你的真实姓名" value="">
+                </div>
+                <div class="footer">
+                    <button type="submit" id="zhifu">保 存</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="modal"></div>
+    <div class="disa">
+        <div class="top">
+            选择银行
+            <div class="pic">
+                <img src="img/30.png">
+            </div>
+        </div>
+        <div class="text">
+            <ul>
+                <li>
+                    <div class="pic">
+                        <img src="img/54.png">
+                    </div>
+                    <div class="title">中国工商银行</div>
+                </li>
+                <li>
+                    <div class="pic">
+                        <img src="img/54.png">
+                    </div>
+                    <div class="title">中国建设银行</div>
+                </li>
+                <li>
+                    <div class="pic">
+                    <img src="img/54.png">
+                </div>
+                    <div class="title">中国工商银行</div>
+                </li>
+                <li>
+                    <div class="pic">
+                        <img src="img/54.png">
+                    </div>
+                    <div class="title">中国工商银行</div>
+                </li>
+                <li>
+                    <div class="pic">
+                        <img src="img/54.png">
+                    </div>
+                    <div class="title">中国工商银行</div>
+                </li>
+                <li>
+                    <div class="pic">
+                        <img src="img/54.png">
+                    </div>
+                    <div class="title">中国工商银行</div>
+                </li>
+                <li>
+                    <div class="pic">
+                        <img src="img/54.png">
+                    </div>
+                    <div class="title">中国工商银行</div>
+                </li>
+                <li>
+                    <div class="pic">
+                        <img src="img/54.png">
+                    </div>
+                    <div class="title">中国工商银行</div>
+                </li>
+                <li>
+                    <div class="pic">
+                        <img src="img/54.png">
+                    </div>
+                    <div class="title">中国工商银行</div>
+                </li>
+                <li>
+                    <div class="pic">
+                        <img src="img/54.png">
+                    </div>
+                    <div class="title">中国工商银行</div>
+                </li>
+                <li>
+                    <div class="pic">
+                        <img src="img/54.png">
+                    </div>
+                    <div class="title">中国工商银行</div>
+                </li>
+                <li>
+                    <div class="pic">
+                        <img src="img/54.png">
+                    </div>
+                    <div class="title">中国工商银行</div>
+                </li>
+                <li>...其他银行</li>
+            </ul>
+        </div>
+    </div>
+    <div class="sheg">
+        <div class="top">
+            选择省市
+            <div class="pic">
+                <img src="img/30.png">
+            </div>
+        </div>
+        <div class="sub">
+            <div class="left">
+                <span>省</span>
+            </div>
+            <div class="right">
+                <span>市</span>
+            </div>
+        </div>
+        <div class="bot">
+            <div class="sheng">
+                <ul>
+                    <li>北京</li>
+                    <li>天津</li>
+                    <li>河北省</li>
+                    <li>山西省</li>
+                    <li>内蒙古自治区</li>
+                    <li>辽宁省</li>
+                    <li>吉林省</li>
+                    <li>黑龙江省</li>
+                </ul>
+            </div>
+            <div class="shi">
+                <ul>
+                    <li>朝阳</li>
+                    <li>朝阳</li>
+                    <li>朝阳</li>
+                    <li>朝阳</li>
+                    <li>朝阳</li>
+                </ul>
+                <ul>
+                    <li>朝阳</li>
+                    <li>朝阳</li>
+                    <li>朝阳</li>
+                    <li>朝阳</li>
+                    <li>朝阳</li>
+                </ul>
+                <ul>
+                    <li>朝阳</li>
+                    <li>朝阳</li>
+                    <li>朝阳</li>
+                    <li>朝阳</li>
+                    <li>朝阳</li>
+                </ul>
+                <ul>
+                    <li>朝阳</li>
+                    <li>朝阳</li>
+                    <li>朝阳</li>
+                    <li>朝阳</li>
+                    <li>朝阳</li>
+                </ul>
+                <ul>
+                    <li>朝阳</li>
+                    <li>朝阳</li>
+                    <li>朝阳</li>
+                    <li>朝阳</li>
+                    <li>朝阳</li>
+                </ul>
+                <ul>
+                    <li>朝阳</li>
+                    <li>朝阳</li>
+                    <li>朝阳</li>
+                    <li>朝阳</li>
+                    <li>朝阳</li>
+                </ul>
+                <ul>
+                    <li>朝阳</li>
+                    <li>朝阳</li>
+                    <li>朝阳</li>
+                    <li>朝阳</li>
+                    <li>朝阳</li>
+                </ul>
+                <ul>
+                    <li>朝阳</li>
+                    <li>朝阳</li>
+                    <li>朝阳</li>
+                    <li>朝阳</li>
+                    <li>朝阳</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,401 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  z-index: 10;
+  background: #f5f5f5;
+  height: 24.88rem;
+  width: 15rem;
+  overflow: auto;
+}
+.header {
+  width: 13.8rem;
+  height: 4rem;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+  background: #ffffff;
+}
+.header .top {
+  height: 1.98rem;
+  border-bottom: 0.02rem solid #e3e3e3;
+  overflow: hidden;
+  zoom: 1;
+}
+.header .top .pic {
+  margin-top: 0.38rem;
+  float: left;
+  width: 1.2rem;
+  height: 1.2rem;
+}
+.header .top .pic img {
+  width: 100%;
+  height: 100%;
+}
+.header .top .text {
+  margin-top: 0.54rem;
+  margin-left: 0.58rem;
+  float: left;
+  height: 0.9rem;
+  line-height: 0.9rem;
+  font-size: 0.64rem;
+  color: #333333;
+}
+.header .top .pan {
+  float: right;
+  width: 0.8rem;
+  height: 0.526rem;
+  margin-top: 0.72rem;
+}
+.header .top .pan img {
+  width: 100%;
+  height: 100%;
+}
+.header .bot {
+  overflow: hidden;
+  zoom: 1;
+}
+.header .bot .pic {
+  margin-top: 0.38rem;
+  float: left;
+  width: 1.2rem;
+  height: 1.2rem;
+}
+.header .bot .pic img {
+  width: 100%;
+  height: 100%;
+}
+.header .bot .text {
+  margin-top: 0.54rem;
+  margin-left: 0.58rem;
+  float: left;
+  height: 0.9rem;
+  line-height: 0.9rem;
+  font-size: 0.64rem;
+  color: #333333;
+}
+.header .bot .pan {
+  float: right;
+  width: 0.8rem;
+  height: 0.526rem;
+  margin-top: 0.72rem;
+}
+.header .bot .pan img {
+  width: 100%;
+  height: 100%;
+}
+.banner {
+  margin-top: 0.4rem;
+  background: #ffffff;
+  width: 15rem;
+}
+.banner .six form .one {
+  height: 1.98rem;
+  border-bottom: 0.02rem solid #e3e3e3;
+  font-size: 0.64rem;
+  color: #333333;
+  line-height: 1.98rem;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+  overflow: hidden;
+  zoom: 1;
+  position: relative;
+}
+.banner .six form .one .left {
+  float: left;
+}
+.banner .six form .one .zhong {
+  float: left;
+  margin-left: 0.8rem;
+  color: #999999;
+}
+.banner .six form .one .pic {
+  position: absolute;
+  right: 0.6rem;
+  top: 0.754rem;
+  width: 0.3rem;
+  height: 0.5rem;
+}
+.banner .six form .one .pic img {
+  width: 100%;
+  height: 100%;
+}
+.banner .six form .two {
+  height: 1.98rem;
+  border-bottom: 0.02rem solid #e3e3e3;
+  font-size: 0.64rem;
+  color: #333333;
+  line-height: 1.98rem;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+  overflow: hidden;
+  zoom: 1;
+  position: relative;
+}
+.banner .six form .two .left {
+  float: left;
+}
+.banner .six form .two .zhong {
+  float: left;
+  margin-left: 0.8rem;
+  color: #999999;
+}
+.banner .six form .two .pic {
+  position: absolute;
+  right: 0.6rem;
+  top: 0.754rem;
+  width: 0.3rem;
+  height: 0.5rem;
+}
+.banner .six form .two .pic img {
+  width: 100%;
+  height: 100%;
+}
+.banner .six form .hang {
+  height: 1.98rem;
+  font-size: 0.64rem;
+  color: #333333;
+  line-height: 1.98rem;
+  border-bottom: 0.02rem solid #e3e3e3;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+}
+.banner .six form .hang input {
+  background: #ffffff;
+  height: 0.9rem;
+  font-size: 0.64rem;
+  line-height: 0.9rem;
+  padding-left: 0.8rem;
+}
+.banner .six form .chi {
+  height: 1.98rem;
+  border-bottom: 0.02rem solid #e3e3e3;
+  font-size: 0.64rem;
+  color: #333333;
+  line-height: 1.98rem;
+  letter-spacing: 0.348rem;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+}
+.banner .six form .chi input {
+  height: 0.9rem;
+  font-size: 0.64rem;
+  line-height: 0.9rem;
+  padding-left: 0.4rem;
+}
+.banner .six form .hao {
+  height: 1.98rem;
+  font-size: 0.64rem;
+  color: #333333;
+  line-height: 1.98rem;
+  letter-spacing: 1.4rem;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+}
+.banner .six form .hao input {
+  height: 0.9rem;
+  font-size: 0.64rem;
+  line-height: 0.9rem;
+  margin-left: -0.7rem;
+}
+.banner .six form .footer {
+  width: 15rem;
+  background: #F5F5F5;
+  height: 10.48rem;
+}
+.banner .six form .footer button {
+  width: 13.8rem;
+  height: 1.8rem;
+  border-radius: 0.1rem;
+  background: #dddddd;
+  margin-top: 0.8rem;
+  font-size: 0.64rem;
+  color: #ffffff;
+  line-height: 0.9rem;
+  margin-left: 0.6rem;
+}
+.banner .four {
+  width: 13.8rem;
+  height: 4rem;
+  background: #ffffff;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+}
+.banner .four form .tell {
+  height: 1.98rem;
+  font-size: 0.64rem;
+  color: #333333;
+  line-height: 1.98rem;
+  border-bottom: 0.02rem solid #e3e3e3;
+}
+.banner .four form .tell input {
+  height: 0.9rem;
+  line-height: 0.9rem;
+  font-size: 0.64rem;
+  padding-left: 0.62rem;
+}
+.banner .four form .xis {
+  height: 1.98rem;
+  font-size: 0.64rem;
+  color: #333333;
+  line-height: 1.98rem;
+}
+.banner .four form .xis input {
+  height: 0.9rem;
+  line-height: 0.9rem;
+  font-size: 0.64rem;
+  padding-left: 1.26rem;
+}
+.banner .four form .footer button {
+  width: 13.8rem;
+  height: 1.8rem;
+  background: #dddddd;
+  border-radius: 0.1rem;
+  margin-top: 0.8rem;
+  font-size: 0.64rem;
+  color: #ffffff;
+}
+.modal {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  opacity: .3;
+  background: #000;
+  display: none;
+}
+.disa {
+  position: fixed;
+  left: 0;
+  bottom: -19rem;
+  width: 15rem;
+  background: #ffffff;
+  height: 19rem;
+  z-index: 100;
+}
+.disa .top {
+  width: 100%;
+  height: 1.98rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #333333;
+  line-height: 1.98rem;
+  border-top: 0.02rem solid #bbbbbb;
+  position: relative;
+}
+.disa .top .pic {
+  width: 0.6rem;
+  height: 0.6rem;
+  position: absolute;
+  right: 0.6rem;
+  top: 0.7rem;
+}
+.disa .top .pic img {
+  width: 100%;
+  height: 100%;
+}
+.disa .text {
+  overflow: auto;
+  height: 17.04rem;
+}
+.disa .text ul li {
+  overflow: hidden;
+  zoom: 1;
+  line-height: 1.76rem;
+  font-size: 0.56rem;
+  color: #333333;
+  height: 1.76rem;
+  padding-left: 0.6rem;
+  border-top: 0.02rem solid #e3e3e3;
+}
+.disa .text ul li .pic {
+  float: left;
+  width: 0.84rem;
+  height: 0.84rem;
+  vertical-align: middle;
+  margin-right: 0.6rem;
+  margin-top: 0.46rem;
+}
+.disa .text ul li .pic img {
+  width: 100%;
+  height: 100%;
+}
+.disa .text ul li .title {
+  float: left;
+  font-size: 0.56rem;
+  color: #333333;
+  line-height: 1.76rem;
+}
+.sheg {
+  position: fixed;
+  left: 0;
+  bottom: -19rem;
+  width: 15rem;
+  height: 19rem;
+  background: #ffffff;
+}
+.sheg .top {
+  width: 100%;
+  height: 1.94rem;
+  border-bottom: 0.02rem solid #bbbbbb;
+  font-size: 0.8rem;
+  color: #333333;
+  line-height: 1.94rem;
+  text-align: center;
+  position: relative;
+}
+.sheg .top .pic {
+  position: absolute;
+  right: 0.6rem;
+  top: 0.7rem;
+  width: 0.6rem;
+  height: 0.6rem;
+  font-size: 0.8rem;
+  color: #333333;
+  line-height: 1.94rem;
+}
+.sheg .top .pic img {
+  width: 100%;
+  height: 100%;
+}
+.sheg .sub {
+  width: 100%;
+  height: 1.76rem;
+  border-bottom: 0.02rem solid #e3e3e3;
+}
+.sheg .sub .left {
+  float: left;
+  text-align: center;
+  width: 50%;
+}
+.sheg .sub .left span {
+  margin: 0 auto;
+  font-size: 0.64rem;
+  line-height: 1.76rem;
+  color: #333333;
+}
+.sheg .sub .right {
+  float: right;
+  width: 50%;
+  text-align: center;
+}
+.sheg .sub .right span {
+  margin: 0 auto;
+  font-size: 0.64rem;
+  line-height: 1.76rem;
+  color: #333333;
+}
+.sheg .bot {
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+  height: 15.18rem;
+  overflow: auto;
+}
+.sheg .bot ul li {
+  height: 1.76rem;
+  border-bottom: 0.02rem solid #e3e3e3;
+  font-size: 0.56rem;
+  color: #333333;
+  line-height: 1.76rem;
+}

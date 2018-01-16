@@ -1,0 +1,36 @@
+div,body,h1,h2,h3,h4,h5,h6,p,a,span,ul,li,ol,dl,dt,dd,table,tr,td,th,i,b,input,form,label,em,textarea{margin:0;padding:0;font-family:PingFang SC}
+a{text-decoration: none;outline: none;-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-user-select: none;
+    -moz-user-focus: none;
+    -moz-user-select: none;}
+a,a:hover,a:active,a:visited,a:link,a:focus{
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+    outline:none;
+    background: none;
+    text-decoration: none;
+}
+::selection {
+    background: #FFF;
+    color: #333;
+}
+::-moz-selection {
+    background: #FFF;
+    color: #333;
+}
+::-webkit-selection {
+    background: #FFF;
+    color: #333;
+}
+li{list-style: none;}
+img{border:none;vertical-align: top;}
+input,button{outline: none;border:none;}
+input{-webkit-tap-highlight-color:rgba(0,0,0,0);}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none !important;
+    margin: 0;
+}
+input[type="number"]{-moz-appearance:textfield;}
+i,em{font-style:normal;}
+textarea{resize: none;}
